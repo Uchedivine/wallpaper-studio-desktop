@@ -2,7 +2,7 @@
 
 A beautiful and intuitive desktop wallpaper management application built with Flutter. Browse curated wallpaper collections, preview them on a realistic phone mockup, save your favorites, and set wallpapers with customizable display options.
 
-![Wallpaper Studio](![alt text](image-6.png))
+![Wallpaper Studio](![alt text](image-7.png))
 
 ## 🎯 Features
 
@@ -208,29 +208,29 @@ dependencies:
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](![alt text](image.png))
+![Homepage](![alt text](image-8.png))
 
 ### Browse Categories
-![Browse](![alt text](image-1.png), ![alt text](image-2.png))
+![Browse](![alt text](image-10.png), ![alt text](image-9.png))
 
 ### Wallpaper Details
 ![Details](![alt text](image-3.png))
 
 ### Favorites
-![Favorites](![alt text](image-4.png))
+![Favorites](![alt text](image-11.png))
 
 ### Settings
-![Settings](![alt text](image-5.png))
+![Settings](![alt text](image-12.png))
 
 
 ## 📥 Download
 
 **Windows Desktop Application**
 
-[📦 Download Latest Release (v1.0.0)](https://github.com/Uchedivine/wallpaper-studio-desktop/releases/download/v1.0.0/wallpaper_studio_windows_v1.0.0.zip)
+[📦 Download Latest Release (v1.0.1)](https://github.com/Uchedivine/wallpaper-studio-desktop/releases/download/v1.0.1/wallpaper_studio_windows_v1.0.1.zip)
 
 ### Installation Instructions:
-1. Download `wallpaper_studio_windows_v1.0.0.zip` from the link above
+1. Download `wallpaper_studio_windows_v1.0.1.zip` from the link above
 2. Extract all files to a folder on your computer
 3. Open the extracted folder
 4. Double-click `wallpaper_app.exe` to run the application
