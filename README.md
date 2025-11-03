@@ -73,6 +73,10 @@ To create an optimized release build:
 flutter build windows --release
 ```
 
+ ## 🎥 Demo Video
+
+- Watch the full walkthrough: https://drive.google.com/file/d/1qQDyPGLev-ku7US9g5bOGmECQJ1g3OlT/view?usp=sharing
+
 The executable will be located at:
 ```
 build\windows\x64\runner\Release\wallpaper_studio.exe
@@ -197,6 +201,9 @@ dependencies:
 
 ### Issue: Build fails on Windows
 **Solution**: Run `flutter clean` then `flutter pub get` and try building again.
+
+### Figma Link to design
+- https://www.figma.com/design/WnHFPfZ7uW2vxy4sHqtb12/MOBILE-WALLPAPER-SELECTOR?node-id=0-1&p=f&t=2uDO3enoMFIThi2n-0
 
 ## 📸 Screenshots
 
