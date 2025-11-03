@@ -84,15 +84,16 @@ class _HomepageState extends State<Homepage> {
             ],
           ).createShader(bounds),
           child: Text(
-            'Discover Beautiful Wallpapers',
-            style: GoogleFonts.poppins(
-              fontSize: 60,
-              fontWeight: FontWeight.w600,
-              color: Colors.white,
-              height: 1.0,
-              letterSpacing: 0,
-            ),
-          ),
+  'Discover Beautiful Wallpapers',
+  style: const TextStyle(
+    fontFamily: 'ClashDisplay',
+    fontSize: 60,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+    height: 1.0,
+    letterSpacing: 0,
+  ),
+),
         ),
         const SizedBox(height: 12),
         const Text(

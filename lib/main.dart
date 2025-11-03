@@ -19,7 +19,7 @@ class WallpaperStudioApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: 'Inter',
+        fontFamily: 'ClashDisplay',
         useMaterial3: true,
       ),
       initialRoute: '/',

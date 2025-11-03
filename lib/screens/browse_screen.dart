@@ -64,12 +64,14 @@ class _BrowseScreenState extends State<BrowseScreen> {
               ).createShader(bounds),
               child: Text(
                 'Browse Categories',
-                style: GoogleFonts.poppins(
-                  fontSize: 40,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white,
-                  height: 1.0,
-                ),
+                 style: const TextStyle(
+    fontFamily: 'ClashDisplay',
+    fontSize: 60,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+    height: 1.0,
+    letterSpacing: 0,
+  ),
               ),
             ),
             const SizedBox(height: 8),

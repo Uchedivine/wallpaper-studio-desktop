@@ -49,14 +49,15 @@ class ActiveWallpaperCard extends StatelessWidget {
                       Color(0xFFEC0C43),
                     ],
                   ).createShader(bounds),
-                  child: Text(
-                    'Your Active Wallpaper',
-                    style: GoogleFonts.poppins(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.white,
-                    ),
-                  ),
+                  child: const Text(
+    'Your Active Wallpaper',
+    style: TextStyle(
+      fontFamily: 'ClashDisplay',
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+      color: Colors.white,
+    ),
+  ),
                 ),
                 const SizedBox(height: 6),
                 const Text(

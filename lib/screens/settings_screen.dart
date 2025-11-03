@@ -39,12 +39,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       ).createShader(bounds),
                       child: Text(
                         'Settings',
-                        style: GoogleFonts.poppins(
-                          fontSize: 40,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.white,
-                          height: 1.0,
-                        ),
+                         style: const TextStyle(
+    fontFamily: 'ClashDisplay',
+    fontSize: 60,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+    height: 1.0,
+    letterSpacing: 0,
+  ),
                       ),
                     ),
                     const SizedBox(height: 8),
