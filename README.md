@@ -7,13 +7,14 @@ A beautiful and intuitive desktop wallpaper management application built with Fl
 ## 🎯 Features
 
 - **Browse Categories**: Explore wallpapers organized by categories (Nature, Abstract, Urban, Space, Minimalist, Animals)
+- **Enhanced Category Cards**: Rich category cards with names, descriptions, and wallpaper counts with gradient overlays
 - **Grid & List View**: Toggle between grid and list views for comfortable browsing
 - **Real-time Preview**: View wallpapers on a realistic phone mockup before setting them
 - **Favorites Management**: Save and manage your favorite wallpapers
 - **Active Wallpaper**: Track and display your currently active wallpaper
 - **Customizable Settings**: Configure display mode (Fit, Fill, Stretch, Tile), auto-rotation, and advanced options
 - **Responsive Design**: Optimized for various desktop screen sizes
-- **Modern UI**: Clean, gradient-based design with smooth animations
+- **Modern UI**: Clean, gradient-based design with smooth animations and hover effects
 
 ## 📋 Prerequisites
 
@@ -73,7 +74,7 @@ To create an optimized release build:
 flutter build windows --release
 ```
 
- ## 🎥 Demo Video
+## 🎥 Demo Video
 
 - Watch the full walkthrough: https://drive.google.com/file/d/1qQDyPGLev-ku7US9g5bOGmECQJ1g3OlT/view?usp=sharing
 
@@ -83,6 +84,7 @@ build\windows\x64\runner\Release\wallpaper_studio.exe
 ```
 
 ## 📁 Project Structure
+```
 wallpaper_studio/
 ├── lib/
 │   ├── main.dart                          # App entry point
@@ -101,7 +103,7 @@ wallpaper_studio/
 │   │   └── wallpaper_setup_screen.dart    # Wallpaper configuration
 │   ├── widgets/
 │   │   ├── top_navigation.dart            # Top navigation bar
-│   │   ├── category_card.dart             # Category card widget
+│   │   ├── category_card.dart             # Enhanced category card widget
 │   │   └── active_wallpaper_card.dart     # Active wallpaper display
 │   └── services/
 │       ├── favourites_service.dart        # Favorites management
@@ -110,12 +112,15 @@ wallpaper_studio/
 │   └── images/                            # Wallpaper images
 ├── windows/                               # Windows-specific files
 └── pubspec.yaml                           # Project dependencies
+```
 
 ## 🎨 App Screens
 
 ### 1. Homepage
 - Hero section with gradient heading "Discover Beautiful Wallpapers"
-- Category grid with 6 wallpaper categories
+- Enhanced category cards showing names, descriptions, and wallpaper counts
+- Category grid with 6 wallpaper categories with gradient overlays
+- Smooth hover animations on cards
 - "See All" button to browse all categories
 - Shows active wallpaper card if a wallpaper is set
 
@@ -188,6 +193,12 @@ dependencies:
 - Scrollable content areas
 - Minimum screen width: 800px recommended
 
+### Enhanced UI Components
+- Gradient overlays for better text readability
+- Smooth hover animations with scale transforms
+- Typography hierarchy with custom font styling
+- Responsive card layouts with proper aspect ratios
+
 ## 🐛 Troubleshooting
 
 ### Issue: "Flutter command not found"
@@ -201,6 +212,9 @@ dependencies:
 
 ### Issue: Build fails on Windows
 **Solution**: Run `flutter clean` then `flutter pub get` and try building again.
+
+### Issue: App won't run - Missing DLL files
+**Solution**: Make sure to include all files from the Release folder when distributing, especially `flutter_windows.dll` and other runtime DLLs.
 
 ### Figma Link to design
 - https://www.figma.com/design/WnHFPfZ7uW2vxy4sHqtb12/MOBILE-WALLPAPER-SELECTOR?node-id=0-1&p=f&t=2uDO3enoMFIThi2n-0
@@ -222,15 +236,14 @@ dependencies:
 ### Settings
 ![Settings](![alt text](image-12.png))
 
-
 ## 📥 Download
 
 **Windows Desktop Application**
 
-[📦 Download Latest Release (v1.0.1)](https://github.com/Uchedivine/wallpaper-studio-desktop/releases/download/v1.0.1/wallpaper_studio_windows_v1.0.1.zip)
+[📦 Download Latest Release (v1.0.2)](https://github.com/Uchedivine/wallpaper-studio-desktop/releases/download/v1.0.2/wallpaper_studio_windows_v1.0.2.zip)
 
 ### Installation Instructions:
-1. Download `wallpaper_studio_windows_v1.0.1.zip` from the link above
+1. Download `wallpaper_studio_windows_v1.0.2.zip` from the link above
 2. Extract all files to a folder on your computer
 3. Open the extracted folder
 4. Double-click `wallpaper_app.exe` to run the application
@@ -238,7 +251,23 @@ dependencies:
 
 **Note**: Windows may show a security warning for unrecognized apps. Click "More info" → "Run anyway" to proceed.
 
+## 📋 Version History
 
+### v1.0.2 (Latest) - Enhanced Category Cards
+- ✨ Enhanced category cards with text overlays
+- 🎯 Added category descriptions and wallpaper counts
+- 🌈 Implemented gradient overlays for better readability
+- 🖼️ Fixed image quality and display issues
+- 💫 Improved hover animations and interactions
+
+### v1.0.1 - Font Update
+- ✨ Implemented Clash Display font for all headings
+- 🎯 Improved visual hierarchy with custom typography
+- 🔧 Minor UI refinements
+
+### v1.0.0 - Initial Release
+- 🎉 First stable release
+- ✅ All core features implemented
 
 ## 🔧 Development
 
@@ -266,8 +295,6 @@ This project was built as part of the HNG Internship Stage 3 task.
 ## 📄 License
 
 This project is part of the HNG Internship program.
-
-
 
 ---
 
